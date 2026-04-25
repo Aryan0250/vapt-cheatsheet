@@ -118,7 +118,7 @@ sudo autopsy        # launch on Kali
 sudo apt install crunch -y
 crunch 4 4 abcdefghijklmnopqrstuvwxyz -o wordlist.txt     # 4-char lowercase
 crunch 6 6 0123456789 -o pins.txt                         # 6-digit PINs
-crunch 6 8 -o output.txt -t ABC123                        # Pattern based
+crunch 6 6 -t ABC@@@ -o output.txt                        # Pattern based
 crunch 6 8 abc123 -o mixed.txt                            # Min 6 max 8
 ```
 
